@@ -1,0 +1,9 @@
+F:\Office Work\ABCLogistic\obj\Debug\net5.0\ABCLogistic.Web.csproj.AssemblyReference.cache
+F:\Office Work\ABCLogistic\obj\Debug\net5.0\ABCLogistic.Web.GeneratedMSBuildEditorConfig.editorconfig
+F:\Office Work\ABCLogistic\obj\Debug\net5.0\ABCLogistic.Web.AssemblyInfoInputs.cache
+F:\Office Work\ABCLogistic\obj\Debug\net5.0\ABCLogistic.Web.AssemblyInfo.cs
+F:\Office Work\ABCLogistic\obj\Debug\net5.0\ABCLogistic.Web.csproj.CoreCompileInputs.cache
+F:\Office Work\ABCLogistic\obj\Debug\net5.0\ABCLogistic.Web.MvcApplicationPartsAssemblyInfo.cs
+F:\Office Work\ABCLogistic\obj\Debug\net5.0\ABCLogistic.Web.MvcApplicationPartsAssemblyInfo.cache
+F:\Office Work\ABCLogistic\obj\Debug\net5.0\ABCLogistic.Web.RazorAssemblyInfo.cache
+F:\Office Work\ABCLogistic\obj\Debug\net5.0\ABCLogistic.Web.RazorAssemblyInfo.cs

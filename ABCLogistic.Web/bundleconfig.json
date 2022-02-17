@@ -1,0 +1,100 @@
+[
+  {
+    "outputFileName": "wwwroot/css/common-bundle.css",
+    "inputFiles": [
+      "wwwroot/css/common/croppie.css",
+      "wwwroot/css/common/vendors.min.css",
+      "wwwroot/css/common/bootstrap.min.css",
+      "wwwroot/css/common/bootstrap-extended.min.css",
+      "wwwroot/css/common/colors.min.css",
+      "wwwroot/css/common/components.min.css",
+      "wwwroot/css/common/vertical-menu.min.css",
+      "wwwroot/css/common/palette-gradient.min.css",
+      "wwwroot/fonts/font-awesome.css",
+      "wwwroot/css/custom/style.css",
+      "wwwroot/css/custom/dev-style.css"
+    ],
+    "minify": { "enabled": false }
+  },
+  {
+    "outputFileName": "wwwroot/js/common-bundle.js",
+    "inputFiles": [
+      "wwwroot/js/common/bootstrap.min.js",
+      "wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "wwwroot/js/custom/siteUrl.js",
+      "wwwroot/js/custom/common.js",
+      "wwwroot/js/common/jquery.maskedinput.min.js",
+      "wwwroot/js/common/passwordStrengthMeter.js",
+      "wwwroot/js/common/croppie.js"
+    ],
+    "minify": { "enabled": true }
+  },
+  {
+    "outputFileName": "wwwroot/kendo/css/kendo.css",
+    "inputFiles": [
+      "wwwroot/kendo/css/kendo.bootstrap.min.css",
+      "wwwroot/kendo/css/kendo.common-bootstrap.min.css"
+    ],
+    "minify": { "enabled": false }
+  },
+  {
+    "outputFileName": "wwwroot/kendo/css/kendo-theme.css",
+    "inputFiles": [
+      "wwwroot/kendo/css/kendo.fiori.min.css"
+    ],
+    "minify": { "enabled": false }
+  },
+  {
+    "outputFileName": "wwwroot/kendo/js/kendo.js",
+    "inputFiles": [
+      "wwwroot/kendo/js/kendo.all.min.js",
+      "wwwroot/kendo/js/kendo.aspnetmvc.min.js"
+    ],
+    "minify": { "enabled": false }
+  },
+  {
+    "outputFileName": "wwwroot/js/main-bundle.js",
+    "inputFiles": [
+      "wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "wwwroot/js/common/jquery.unobtrusive-ajax.min.js",
+      "wwwroot/js/common/jquery-ui.min.js",
+      "wwwroot/js/common/moment.js",
+      "wwwroot/js/custom/siteurl.js"
+    ],
+    "minify": { "enabled": false }
+  },
+  {
+    "outputFileName": "wwwroot/js/home-bundle.js",
+    "inputFiles": [
+      "wwwroot/js/common/jquery-1.11.1.min.js",
+      "wwwroot/js/common/vendors.min.js",
+      "wwwroot/js/custom/common.js",
+      "wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    ],
+    "minify": { "enabled": true }
+  },
+  {
+    "outputFileName": "wwwroot/js/layout-bundle.js",
+    "inputFiles": [
+      "wwwroot/js/common/switchery.min.js",
+      "wwwroot/js/common/switch.min.js",
+      "wwwroot/js/common/prism.min.js",
+      "wwwroot/js/common/app-menu.min.js",
+      "wwwroot/js/common/app.min.js",
+      "wwwroot/js/common/customizer.min.js",
+      "wwwroot/js/common/jquery.sharrre.js"
+    ],
+    "minify": { "enabled": false }
+  },
+  {
+    "outputFileName": "wwwroot/js/user-bundle.js",
+    "inputFiles": [
+      "wwwroot/js/common/jquery.maskedinput.min.js",
+      "wwwroot/js/common/passwordStrengthMeter.js"
+    ],
+    "minify": { "enabled": false }
+  }
+]

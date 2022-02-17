@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<LangVersion>10</LangVersion>
+		<Nullable>annotations</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\ABCLogistic.DatabaseConnection\ABCLogistic.DatabaseConnection.csproj" />
+		<ProjectReference Include="..\ABCLogistic.ViewModels\ABCLogistic.ViewModels.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Using Include="ABCLogistic.DatabaseConnection.Context" />
+		<Using Include="System" />
+		<Using Include="System.Threading.Tasks" />
+		<Using Include="ABCLogistic.DbModels.Shipment" />
+		<Using Include="ABCLogistic.ViewModels.Shipment" />
+		<Using Include="Microsoft.EntityFrameworkCore" />
+		<Using Include="System.Collections.Generic" />
+		<Using Include="System.Linq" />
+		<Using Include="System.Linq.Expressions" />
+		<Using Include="ABCLogistic.DbModels.BaseModel" />
+	</ItemGroup>
+
+</Project>

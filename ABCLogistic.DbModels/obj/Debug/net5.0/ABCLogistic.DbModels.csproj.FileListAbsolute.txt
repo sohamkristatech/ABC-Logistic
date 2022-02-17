@@ -1,0 +1,12 @@
+F:\Office Work\ABCLogistic.DbModels\bin\Debug\net5.0\ABCLogistic.DbModels.deps.json
+F:\Office Work\ABCLogistic.DbModels\bin\Debug\net5.0\ABCLogistic.DbModels.dll
+F:\Office Work\ABCLogistic.DbModels\bin\Debug\net5.0\ref\ABCLogistic.DbModels.dll
+F:\Office Work\ABCLogistic.DbModels\bin\Debug\net5.0\ABCLogistic.DbModels.pdb
+F:\Office Work\ABCLogistic.DbModels\obj\Debug\net5.0\ABCLogistic.DbModels.GeneratedMSBuildEditorConfig.editorconfig
+F:\Office Work\ABCLogistic.DbModels\obj\Debug\net5.0\ABCLogistic.DbModels.AssemblyInfoInputs.cache
+F:\Office Work\ABCLogistic.DbModels\obj\Debug\net5.0\ABCLogistic.DbModels.AssemblyInfo.cs
+F:\Office Work\ABCLogistic.DbModels\obj\Debug\net5.0\ABCLogistic.DbModels.csproj.CoreCompileInputs.cache
+F:\Office Work\ABCLogistic.DbModels\obj\Debug\net5.0\ABCLogistic.DbModels.dll
+F:\Office Work\ABCLogistic.DbModels\obj\Debug\net5.0\ref\ABCLogistic.DbModels.dll
+F:\Office Work\ABCLogistic.DbModels\obj\Debug\net5.0\ABCLogistic.DbModels.pdb
+F:\Office Work\ABCLogistic.DbModels\obj\Debug\net5.0\ABCLogistic.DbModels.csproj.AssemblyReference.cache

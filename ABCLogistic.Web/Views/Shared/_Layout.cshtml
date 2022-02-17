@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ABC Logistic</title>
+    <link href="@Url.Content("~/css/common-bundle.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/kendo/css/kendo.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/kendo/css/kendo-theme.css")" rel="stylesheet" />
+    <script src="@Url.Content("~/js/common/jquery-1.11.1.min.js")"></script>
+    <script src="@Url.Content("~/js/common/vendors.min.js")"></script>
+    <script src="@Url.Content("~/js/custom/common.js")"></script>
+    <script src="@Url.Content("~/js/main-bundle.js")"></script>
+    <script src="@Url.Content("~/kendo/js/kendo.js")"></script>
+    <script src="@Url.Content("~/js/common/croppie.js")"></script>
+</head>
+<body class="vertical-layout vertical-menu 2-columns fixed-navbar menu-collapsed" data-menu="vertical-menu" data-color="bg-gradient-x-purple-blue" data-col="2-columns">
+    <div id="wrapper" class="clearfix">
+        <nav class="header-navbar navbar-expand-md navbar navbar-with-menu navbar-without-dd-arrow fixed-top navbar-semi-light">
+            <div class="navbar-wrapper">
+                <div class="navbar-container content">
+                    <div class="collapse navbar-collapse show" id="navbar-mobile">
+                        <ul class="nav navbar-nav mr-auto float-left">
+                            <li class="nav-item mobile-menu d-md-none mr-auto"><a class="nav-link nav-menu-main menu-toggle hidden-xs" href="#"><i class="ft-menu font-large-1"></i></a></li>
+                            <li class="nav-item d-none d-md-block"><a class="nav-link nav-menu-main menu-toggle hidden-xs" href="#"><i class="ft-menu"></i></a></li>
+                        </ul>
+
+                        <ul class="nav navbar-nav float-right">
+                            <li class="nav-item d-none d-md-block"><a class="nav-link nav-link-expand" href="#"><i class="ficon ft-maximize"></i></a></li>
+                            <li class="dropdown dropdown-user nav-item">
+                                <a class="dropdown-toggle nav-link dropdown-user-link" href="#" data-toggle="dropdown"> <span class="avatar avatar-online"><img src="@Url.Content("~/images/profile_photo_thumbnail.png")"></span></a>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <div class="arrow_box_right">
+                                        <a class="dropdown-item" href="javascript:;">
+                                            <i class="ft-user"></i> Soham Patel
+                                        </a>
+                                        <div class="dropdown-divider"></div><a class="dropdown-item" asp-action="logout" asp-controller="Home"><i class="ft-power"></i> Logout </a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="main-menu menu-fixed menu-light menu-accordion menu-shadow" data-img="@Url.Content("~/images/menu-back.jpg")">
+            <div class="navbar-header">
+                <ul class="nav navbar-nav flex-row">
+                    <li class="nav-item mr-auto">
+                        <a class="navbar-brand" asp-controller="Home" asp-action="Home">
+                            <h3 class="brand-text pl-0"></h3>
+                        </a>
+                    </li>
+                    <li class="nav-item d-md-none"><a class="nav-link close-navbar"><i class="ft-x"></i></a></li>
+                </ul>
+            </div>
+            <div class="navigation-background"></div>
+            <div class="main-menu-content">
+                <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
+                    <li class=" nav-item"><a asp-controller="Shipment" asp-action="List"><i class="ft-home"></i> Shpping Management</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="app-content content">
+            <div class="loader_box displaynone" id="divWait">
+                <div class="loader-overlay"></div>
+                <div class="loader">
+                    <div class="line one"></div>
+                    <div class="line two"></div>
+                    <div class="line three"></div>
+                    <div class="line four"></div>
+                    <div class="line five"></div>
+                </div>
+            </div>
+            <div class="content-wrapper">
+                <main role="main" class="pb-3">
+                    @RenderBody()
+                </main>
+            </div>
+        </div>
+        <footer class="footer footer-static footer-light navbar-border navbar-shadow">
+            <div class="clearfix blue-grey lighten-2 text-sm-center mb-0 px-2">
+                <span class="float-md-left d-block d-md-inline-block">
+                    &copy; @DateTime.Now.Year - ABC Logistic
+                </span>
+            </div>
+        </footer>
+    </div>
+    <script src="@Url.Content("~/js/layout-bundle.js")"></script>
+    @RenderSection("Scripts", false)
+</body>
+</html>

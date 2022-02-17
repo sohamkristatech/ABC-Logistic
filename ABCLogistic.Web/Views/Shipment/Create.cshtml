@@ -1,0 +1,83 @@
+﻿@model ABCLogistic.ViewModels.Shipment.ShipmentViewModel
+
+@{
+    ViewData["Title"] = "Create Shipment";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card">
+    <div class="card-header">
+        <h4 class="card-title " id="basic-layout-form">Create Shipment</h4>
+        <a class="heading-elements-toggle">
+            <i class="la la-ellipsis-v font-medium-3"></i>
+        </a>
+        <div class="heading-elements">
+            <ul class="list-inline mb-0">
+                <li>
+                    <a data-action="collapse">
+                        <i class="ft-minus"></i>
+                    </a>
+                </li>
+                <li>
+                    <a data-action="expand">
+                        <i class="ft-maximize"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="card-content collapse show">
+        <div class="card-body">
+            <form class="form" asp-action="Create">
+                <div class="form-body">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-6">
+                            <div class="form-group">
+                                <label for="StrLeaveFromDate">Sender Name<span class="compulsory">*</span></label>
+                                <input asp-for="SenderName" class="form-control" placeholder="Sender Name">
+                                <span asp-validation-for="SenderName" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="LeaveReason">Description<span class="compulsory">*</span></label>
+                        <textarea asp-for="Description" class="form-control" rows="5" maxlength="255" placeholder="Description"></textarea>
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-6">
+                            <div class="form-group">
+                                <label asp-for="ShipmentTypeId">Shipment Types<span class="compulsory">*</span></label>
+                                <select asp-for="ShipmentTypeId" asp-items="Model.SelectListForShipmentType" class="form-control borderfix">
+                                    <option value="" selected="selected">- Select Shipment Type -</option>
+                                </select>
+                                <span asp-validation-for="ShipmentTypeId" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-lg-6">
+                            <br />
+                            <br />
+                            <div class="row">
+                                <div class="form-group offset-1">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input asp-for="Expedited" /> @Html.DisplayName("Expedited")
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-primary">
+                        Save
+                    </button>
+                    <a asp-action="List" class="btn btn-danger m-1">Back</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="~/js/custom/LeaveManagementCreate.js"></script>

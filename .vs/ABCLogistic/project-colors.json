@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d2feb17a-d18f-470f-9109-1986d296c0ff": {
+      "ProjectGuid": "d2feb17a-d18f-470f-9109-1986d296c0ff",
+      "DisplayName": "ABCLogistic.Web",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

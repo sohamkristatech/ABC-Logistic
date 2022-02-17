@@ -1,0 +1,79 @@
+﻿@model ABCLogistic.ViewModels.Shipment.ShipmentViewModel
+
+<div class="card">
+    <div class="card-header">
+        <h4 class="card-title " id="basic-layout-form">Shpping Detail</h4>
+        <a class="heading-elements-toggle">
+            <i class="la la-ellipsis-v font-medium-3"></i>
+        </a>
+        <div class="heading-elements">
+            <ul class="list-inline mb-0">
+                <li>
+                    <a data-action="collapse">
+                        <i class="ft-minus"></i>
+                    </a>
+                </li>
+                <li>
+                    <a data-action="expand">
+                        <i class="ft-maximize"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="card-content collapse show">
+        <div class="card-body">
+            <form class="form-horizontal formstyle">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-6">
+                        <div class="row">
+                            <label for="inputEmail3" class="col-sm-12 col-lg-3 ">Sender name :</label>
+                            <div class="col-sm-12 col-lg-9">
+                                @Html.DisplayFor(model => model.SenderName)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-sm-12 col-lg-6">
+                        <div class="row">
+                            <label for="inputEmail3" class="col-sm-12 col-lg-3 ">Description :</label>
+                            <div class="col-sm-12 col-lg-9">
+                                @Html.DisplayFor(model => model.Description)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-1">
+                    <div class="col-sm-12 col-lg-6">
+                        <div class="row">
+                            <label for="inputEmail3" class="col-sm-12 col-lg-3">Expedited :</label>
+                            <div class="col-sm-12 col-lg-9">
+                                @Html.DisplayFor(model => model.StrExpedited)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-6">
+                        <div class="row">
+                            <label for="inputEmail3" class="col-sm-12 col-lg-3">ShipmentType :</label>
+                            <div class="col-sm-12 col-lg-9">
+                                @Html.DisplayFor(model => model.ShipmentType)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-1">
+                    <div class="col-sm-12 col-lg-6">
+                        <div class="row">
+                            <label for="inputEmail3" class="col-sm-12 col-lg-3">Created on :</label>
+                            <div class="col-sm-12 col-lg-9">
+                                @Html.DisplayFor(model => model.CreatedOn)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

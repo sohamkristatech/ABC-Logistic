@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<LangVersion>10</LangVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Using Include="System" />
+		<Using Include="System.ComponentModel.DataAnnotations" />
+		<Using Include="ABCLogistic.DbModels.BaseModel" />
+		<Using Include="System.ComponentModel.DataAnnotations.Schema" />
+	</ItemGroup>
+</Project>

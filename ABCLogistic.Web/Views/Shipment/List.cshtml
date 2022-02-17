@@ -1,0 +1,66 @@
+﻿@using Kendo.Mvc.UI
+@{
+    ViewData["Title"] = "Shipping Management";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="col-md-12">
+    <div class="maintitlebox mbp15">
+        <h2>Shipping Management</h2>
+        <hr />
+    </div>
+</div>
+
+<form asp-action="delete" method="post">
+    <div class="col-md-12">
+        <div class="graybg">
+            <div class="clearfix ptp5 pbp15">
+                <a asp-action="create" class="btn btn-primary"><i class="fa fa-plus" aria-hidden="true"></i> Add New</a>
+                <br /><br />
+            </div>
+            <div class="table-responsive tablestyle">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <div class="main-grid">
+                                @(Html.Kendo().Grid<ABCLogistic.ViewModels.Shipment.ShipmentViewModel>()
+                                .Name("grid")
+                                .Events(e => e.DataBound("onGridDataBound"))
+                                .Columns(columns =>
+                                {
+                                columns.Bound(x => x.Id).ClientTemplate("<input type='checkbox' id='chkDelete' name='chkDelete' class='singleCheckBox' value='#= Id #' onclick='return initializeSingleCheckBox(this);' />").HtmlAttributes(new { @class = "text-center" })
+                                .ClientHeaderTemplate("<input id='allCheckBox' name='allCheckBox' type='checkbox' title='check all records' onclick='return initializeAllCheckBox();' />")
+                                .HeaderHtmlAttributes(new { @style = "text-align:center;" }).Width("5%")
+                                .Filterable(false).Sortable(false).Groupable(false);
+
+                                columns.Bound(user => user.SenderName).Title("Sender Name").Width("20%")
+                                .ClientTemplate("<a href='" + Url.Action("Details", "Shipment", new {id = "#= Id #" }) + "'" + " class='grid-btn-edit' title = 'Detail'>#= SenderName #</a>");
+
+                                columns.Bound(u => u.ShipmentType).Title("Shipment Type").Width("15%");
+                                columns.Bound(u => u.StrExpedited).Title("Status-Expedited").Width("15%");
+                                })
+                                .Pageable(pageable => pageable.Refresh(true)
+                                .PageSizes(new[]{5,10,25,50,100,500})
+                                .ButtonCount(5)
+                                .Input(true).Numeric(true))
+                                .DataSource(dataSource => dataSource
+                                .Ajax()
+                                .PageSize(10)
+                                .Read(read => read.Action("AjaxBinding", "Shipment").Data("FilterData")))
+                                .Sortable()
+                                .Filterable()
+                                .Groupable(false)
+                                .EnableCustomBinding(true))
+                            </div>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="clearfix pbp15">
+                <button class="btn btn-primary" onclick="return Check_CheckBox_Count();" type="submit"><i class="fa fa-times" aria-hidden="true"></i> Delete</button>
+            </div>
+        </div>
+    </div>
+</form>
+@section Scripts{
+<script src="@Url.Content("~/js/custom/Class.js")"></script>
+}
