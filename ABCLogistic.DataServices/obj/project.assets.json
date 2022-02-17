@@ -8353,11 +8353,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Office Work\\ABCLogistic\\ABCLogistic.DataServices\\ABCLogistic.DataServices.csproj",
+      "projectUniqueName": "E:\\ABC-Logistic\\ABCLogistic.sln\\ABCLogistic.DataServices\\ABCLogistic.DataServices.csproj",
       "projectName": "ABCLogistic.DataServices",
-      "projectPath": "F:\\Office Work\\ABCLogistic\\ABCLogistic.DataServices\\ABCLogistic.DataServices.csproj",
+      "projectPath": "E:\\ABC-Logistic\\ABCLogistic.sln\\ABCLogistic.DataServices\\ABCLogistic.DataServices.csproj",
       "packagesPath": "C:\\Users\\SOHAM\\.nuget\\packages\\",
-      "outputPath": "F:\\Office Work\\ABCLogistic\\ABCLogistic.DataServices\\obj\\",
+      "outputPath": "E:\\ABC-Logistic\\ABCLogistic.sln\\ABCLogistic.DataServices\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SOHAM\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8374,11 +8374,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "F:\\Office Work\\ABCLogistic\\ABCLogistic.DatabaseConnection\\ABCLogistic.DatabaseConnection.csproj": {
-              "projectPath": "F:\\Office Work\\ABCLogistic\\ABCLogistic.DatabaseConnection\\ABCLogistic.DatabaseConnection.csproj"
+            "E:\\ABC-Logistic\\ABCLogistic.sln\\ABCLogistic.DatabaseConnection\\ABCLogistic.DatabaseConnection.csproj": {
+              "projectPath": "E:\\ABC-Logistic\\ABCLogistic.sln\\ABCLogistic.DatabaseConnection\\ABCLogistic.DatabaseConnection.csproj"
             },
-            "F:\\Office Work\\ABCLogistic\\ABCLogistic.ViewModels\\ABCLogistic.ViewModels.csproj": {
-              "projectPath": "F:\\Office Work\\ABCLogistic\\ABCLogistic.ViewModels\\ABCLogistic.ViewModels.csproj"
+            "E:\\ABC-Logistic\\ABCLogistic.sln\\ABCLogistic.ViewModels\\ABCLogistic.ViewModels.csproj": {
+              "projectPath": "E:\\ABC-Logistic\\ABCLogistic.sln\\ABCLogistic.ViewModels\\ABCLogistic.ViewModels.csproj"
             }
           }
         }

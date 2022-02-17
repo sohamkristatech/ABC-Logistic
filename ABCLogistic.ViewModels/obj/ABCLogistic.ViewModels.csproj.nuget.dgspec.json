@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Office Work\\ABCLogistic\\ABCLogistic.ViewModels\\ABCLogistic.ViewModels.csproj": {}
+    "E:\\ABC-Logistic\\ABCLogistic.sln\\ABCLogistic.ViewModels\\ABCLogistic.ViewModels.csproj": {}
   },
   "projects": {
-    "F:\\Office Work\\ABCLogistic\\ABCLogistic.ViewModels\\ABCLogistic.ViewModels.csproj": {
+    "E:\\ABC-Logistic\\ABCLogistic.sln\\ABCLogistic.ViewModels\\ABCLogistic.ViewModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Office Work\\ABCLogistic\\ABCLogistic.ViewModels\\ABCLogistic.ViewModels.csproj",
+        "projectUniqueName": "E:\\ABC-Logistic\\ABCLogistic.sln\\ABCLogistic.ViewModels\\ABCLogistic.ViewModels.csproj",
         "projectName": "ABCLogistic.ViewModels",
-        "projectPath": "F:\\Office Work\\ABCLogistic\\ABCLogistic.ViewModels\\ABCLogistic.ViewModels.csproj",
+        "projectPath": "E:\\ABC-Logistic\\ABCLogistic.sln\\ABCLogistic.ViewModels\\ABCLogistic.ViewModels.csproj",
         "packagesPath": "C:\\Users\\SOHAM\\.nuget\\packages\\",
-        "outputPath": "F:\\Office Work\\ABCLogistic\\ABCLogistic.ViewModels\\obj\\",
+        "outputPath": "E:\\ABC-Logistic\\ABCLogistic.sln\\ABCLogistic.ViewModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SOHAM\\AppData\\Roaming\\NuGet\\NuGet.Config",

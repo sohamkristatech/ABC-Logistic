@@ -8883,11 +8883,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Office Work\\ABCLogistic\\ABCLogistic.Web\\ABCLogistic.Web.csproj",
+      "projectUniqueName": "E:\\ABC-Logistic\\ABCLogistic.sln\\ABCLogistic.Web\\ABCLogistic.Web.csproj",
       "projectName": "ABCLogistic.Web",
-      "projectPath": "F:\\Office Work\\ABCLogistic\\ABCLogistic.Web\\ABCLogistic.Web.csproj",
+      "projectPath": "E:\\ABC-Logistic\\ABCLogistic.sln\\ABCLogistic.Web\\ABCLogistic.Web.csproj",
       "packagesPath": "C:\\Users\\SOHAM\\.nuget\\packages\\",
-      "outputPath": "F:\\Office Work\\ABCLogistic\\ABCLogistic.Web\\obj\\",
+      "outputPath": "E:\\ABC-Logistic\\ABCLogistic.sln\\ABCLogistic.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SOHAM\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8904,8 +8904,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "F:\\Office Work\\ABCLogistic\\ABCLogistic.Helper\\ABCLogistic.Helper.csproj": {
-              "projectPath": "F:\\Office Work\\ABCLogistic\\ABCLogistic.Helper\\ABCLogistic.Helper.csproj"
+            "E:\\ABC-Logistic\\ABCLogistic.sln\\ABCLogistic.Helper\\ABCLogistic.Helper.csproj": {
+              "projectPath": "E:\\ABC-Logistic\\ABCLogistic.sln\\ABCLogistic.Helper\\ABCLogistic.Helper.csproj"
             }
           }
         }

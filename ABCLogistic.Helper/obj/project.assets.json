@@ -8371,11 +8371,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Office Work\\ABCLogistic\\ABCLogistic.Helper\\ABCLogistic.Helper.csproj",
+      "projectUniqueName": "E:\\ABC-Logistic\\ABCLogistic.sln\\ABCLogistic.Helper\\ABCLogistic.Helper.csproj",
       "projectName": "ABCLogistic.Helper",
-      "projectPath": "F:\\Office Work\\ABCLogistic\\ABCLogistic.Helper\\ABCLogistic.Helper.csproj",
+      "projectPath": "E:\\ABC-Logistic\\ABCLogistic.sln\\ABCLogistic.Helper\\ABCLogistic.Helper.csproj",
       "packagesPath": "C:\\Users\\SOHAM\\.nuget\\packages\\",
-      "outputPath": "F:\\Office Work\\ABCLogistic\\ABCLogistic.Helper\\obj\\",
+      "outputPath": "E:\\ABC-Logistic\\ABCLogistic.sln\\ABCLogistic.Helper\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SOHAM\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8392,8 +8392,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "F:\\Office Work\\ABCLogistic\\ABCLogistic.DataServices\\ABCLogistic.DataServices.csproj": {
-              "projectPath": "F:\\Office Work\\ABCLogistic\\ABCLogistic.DataServices\\ABCLogistic.DataServices.csproj"
+            "E:\\ABC-Logistic\\ABCLogistic.sln\\ABCLogistic.DataServices\\ABCLogistic.DataServices.csproj": {
+              "projectPath": "E:\\ABC-Logistic\\ABCLogistic.sln\\ABCLogistic.DataServices\\ABCLogistic.DataServices.csproj"
             }
           }
         }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Office Work\\ABCLogistic\\ABCLogistic.DbModels\\ABCLogistic.DbModels.csproj",
+      "projectUniqueName": "E:\\ABC-Logistic\\ABCLogistic.sln\\ABCLogistic.DbModels\\ABCLogistic.DbModels.csproj",
       "projectName": "ABCLogistic.DbModels",
-      "projectPath": "F:\\Office Work\\ABCLogistic\\ABCLogistic.DbModels\\ABCLogistic.DbModels.csproj",
+      "projectPath": "E:\\ABC-Logistic\\ABCLogistic.sln\\ABCLogistic.DbModels\\ABCLogistic.DbModels.csproj",
       "packagesPath": "C:\\Users\\SOHAM\\.nuget\\packages\\",
-      "outputPath": "F:\\Office Work\\ABCLogistic\\ABCLogistic.DbModels\\obj\\",
+      "outputPath": "E:\\ABC-Logistic\\ABCLogistic.sln\\ABCLogistic.DbModels\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SOHAM\\AppData\\Roaming\\NuGet\\NuGet.Config",
